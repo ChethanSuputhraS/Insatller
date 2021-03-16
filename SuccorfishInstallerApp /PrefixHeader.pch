@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Succorfish Installer App
+//
+//  Created by stuart watts on 19/02/2018.
+//  Copyright © 2018 Kalpesh Panchasara. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
+#import "AFHTTPRequestOperation.h"
+#import "AFHTTPRequestOperationManager.h"
+
+#import "Constant.h"
+#import "AppDelegate.h"
+#import "URLManager.h"
+#import "Reachability.h"
+#import "AsyncImageView.h"
+
+#import "MBProgressHUD.h"
+#import "URLManager.h"
+
+#import "URBAlertView.h"
+
+#import "DataBaseManager.h"
+
+
+#import "MNMPullToRefreshManager.h"
+#import "MNMBottomPullToRefreshManager.h"
+
+#import "SDWebImageManager.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
